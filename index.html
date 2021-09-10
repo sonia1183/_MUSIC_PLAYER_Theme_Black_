@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="shortcut icon" href="media/images/nav-section/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-----Animated Background------>
+
+    <div class="body-container">
+        <div class="element">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-----Navigation Bar-------->
+    <nav class="navbar">
+        <div class="title">
+            <div class="logo">
+                <img src="media/images/nav-section/logo2.png" alt="logo">
+            </div>
+            <div class="website-name">
+                <h4>Music</h4>
+                <h6>player</h6>
+            </div>
+        </div>
+        <div class="upgd">
+            <h6>Upgrade</h6>
+        </div>
+        <div class="blank">
+
+        </div>
+        <div class="search-bar">
+            <div><i class="fas fa-search search-ico"></i></div>
+            <input type="text" name="search" placeholder="Search">
+            <div>
+                <i class="fas fa-microphone mic-ico"></i>
+            </div>
+        </div>
+        <div class="notification">
+            <div class="image">
+                <img src="media/images/nav-section/bell.png" alt="bell">
+            </div>
+            <div class="head">
+                <h5>Notification</h5>
+            </div>
+        </div>
+        <div class="profile">
+            <div>
+                <img src="media/images/nav-section/profile_picture.jpg" alt="picture">
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle"><h5>sonia <i class="fas fa-caret-down"></i></h5></a>
+                <ul class="dropdown-menu" type="none">
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Liked Music</a></li>
+                    <li><a href="#">Your Playlist</a></li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!------------------------------------------->
+    <!-------------Music Player Body------------->
+
+    <main>
+     <!--------Section 1------->   
+        <section class="section section1">
+            <!---carousel-->
+            <div class="frame">
+                <div class="animated-div">
+                    <img src="media/images/crousel/c1.png">
+                    <img src="media/images/crousel/c2.jpg">
+                    <img src="media/images/crousel/c3.png">
+                </div>
+            </div>
+            <!------Latest Release Song------->
+            <div class="release">
+                <h1 style="margin-bottom: 12px;">
+                    Latest Release
+                </h1>
+                <div class="latest-release">
+                    <div class="card">
+                        <div>
+                            <img src="media/images/song-image/s1.jpg" alt="s1">
+                            <div class="play-icon">
+                                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+                            </div>
+                        </div>
+                        <div class="song-description">
+                            <h3>
+                                Sorry
+                            </h3>
+                            <p>
+                                23 Oct 2015
+                            </p>
+                        </div>
+                        <div class="options">
+                            <label for="latest-release-checkbox"><i class="fas fa-ellipsis-h"></i></label>
+                            <input type="checkbox" id="latest-release-checkbox">
+                            <div class="latest-release-dropdown">
+                                <div class="drop-item">
+                                    <p><i class="fas fa-play-circle"></i> <a href="#">Play Now</a></p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fas fa-list-ul"></i> Add to Queue</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fas fa-music"></i> Add to playlist</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <p>
+                                3:20
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="media/images/song-image/s2.jpg" alt="s1">
+                            <div class="play-icon">
+                                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+                            </div>
+                        </div>
+                        <div class="song-description">
+                            <h3>
+                                Stay
+                            </h3>
+                            <p>
+                                09 July 2021
+                            </p>
+                        </div>
+                        <div class="options">
+                            <label for="latest-release-checkbox2"><i class="fas fa-ellipsis-h"></i></label>
+                            <input type="checkbox" id="latest-release-checkbox2">
+                            <div class="latest-release-dropdown">
+                                <div class="drop-item">
+                                    <p><i class="fas fa-play-circle"></i> <a href="#">Play Now</a></p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fas fa-list-ul"></i> Add to Queue</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fas fa-music"></i> Add to playlist</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <p>
+                                2:21
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="media/images/song-image/s3.png" alt="s1">
+                            <div class="play-icon">
+                                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+                            </div>
+                        </div>
+                        <div class="song-description">
+                            <h3>
+                               <a href="playlist.html"> Permission To Dance</a>
+                            </h3>
+                            <p>
+                                09 July 2021
+                            </p>
+                        </div>
+                        <div class="options">
+                            <label for="latest-release-checkbox3"><i class="fas fa-ellipsis-h"></i></label>
+                            <input type="checkbox" id="latest-release-checkbox3">
+                            <div class="latest-release-dropdown">
+                                <div class="drop-item">
+                                    <p><i class="fas fa-play-circle"></i> <a href="#">Play Now</a></p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fas fa-list-ul"></i> Add to Queue</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fas fa-music"></i> Add to playlist</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <p>
+                                3:07
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="media/images/song-image/s4.png" alt="s1">
+                            <div class="play-icon">
+                                <i class="fas fa-play" style="width:45%; height:45%; display:inline-block"></i>
+                            </div>
+                        </div>
+                        <div class="song-description">
+                            <h3>
+                               <a href="playlist.html">Butter</a>
+                            </h3>
+                            <p>
+                                21 May 2021
+                            </p>
+                        </div>
+                        <div class="options">
+                            <label for="latest-release-checkbox4"><i class="fas fa-ellipsis-h"></i></label>
+                            <input type="checkbox" id="latest-release-checkbox4">
+                            <div class="latest-release-dropdown">
+                                <div class="drop-item">
+                                    <p><i class="fas fa-play-circle"></i> <a href="#">Play Now</a></p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fas fa-list-ul"></i> Add to Queue</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p><i class="fas fa-music"></i> Add to playlist</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <p>
+                                2:24
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------Famous Artist----------->
+            <div class="artists">
+                <h1 style="margin-bottom:12px;">Popular Artists</h1>
+                <div class="artist-content">
+                    <a href="#">
+                    <div>
+                        <img src="media/images/artists/justin-bieber.jpg" alt="one">
+                        <div></div>
+                        <p>
+                            Justin Bieber
+                        </p>
+                    </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <img src="media/images/artists/bts.png" alt="one">
+                            <div></div>
+                            <p>
+                                Bts
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <img src="media/images/artists/camila-cabello.jpg" alt="one">
+                            <div></div>
+                            <p>
+                                Camila Cabello
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <img src="media/images/artists/ed-sheeran.jpg" alt="one">
+                            <div></div>
+                            <p>
+                                Ed Sheeran
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <img src="media/images/artists/ariena-grande.jpg" alt="one">
+                            <div></div>
+                            <p>
+                                 Ariena Grande
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <img src="media/images/artists/shawn-mendes.jpg" alt="one">
+                            <div></div>
+                            <p>
+                                Shawn Mendes
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--------------Themes------------>
+            <!-----------How's Your Mood-------->
+            <!-----------What Type Of Music You Like TO Here Today---->
+            <div class="theme-music">
+                <div class="logo-station">
+                    <div id="yellow">
+                        <div id="dark-yellow">
+                            <div id="orange">
+                                <img src="media/images/nav-section/logo.png" alt="">
+                                <p>Stations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-theme">
+                    <div class="content-theme">
+                        <img src="media/images/theme-music/love.jpg" alt="">
+                        <p>Love</p>
+                    </div>
+                    <div class="content-theme">
+                        <img src="media/images/theme-music/retro.jpg" alt="">
+                        <p>Retro</p>
+                    </div>
+                    <div class="content-theme">
+                        <img src="media/images/theme-music/chill.jpg" alt="">
+                        <p>Chill</p>
+                    </div>
+                    <div class="content-theme">
+                        <img src="media/images/theme-music/workout.jpg" alt="">
+                        <p>Workout</p>
+                    </div>
+                    <div class="content-theme">
+                        <img src="media/images/theme-music/pop.jpg" alt="">
+                        <p>Pop</p>
+                    </div>
+                    <div class="content-theme">
+                        <img src="media/images/theme-music/rock.jpg" alt="">
+                        <p>Rock</p>
+                    </div>
+                </div>
+            </div>
+            <!---------AnyThing Special Play Already Made Playlist For You------->
+            <div class="theme-music-2">
+                <div class="outer">
+                    <div class="inner">
+                        <span>party</span>
+                    </div>
+                </div>
+                <div class="outer">
+                    <div class="inner">
+                        <span>Electronic</span>
+                    </div>
+                </div>
+                <div class="outer">
+                    <div class="inner">
+                        <span>Travel</span>
+                    </div>
+                </div>
+            </div>
+            <!----------------Do You Like English Song ,,,, So Check Here !!------->
+            <div class="famous-song english">
+                <h1 class="heading">
+                    Famous English
+                </h1>
+                <div class="famous-song-content">
+                <div>
+                    <img src="media/images/song-image/s1.jpg" alt="s1">
+                    <p>Sorry</p>
+                    <p>23 Oct 2015</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/s2.jpg" alt="s2">
+                    <p>Stay</p>
+                    <p>09 July 2021</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/s3.png" alt="s3">
+                    <p>Permission To<br> Dance</p>
+                    <p>09 July 2021</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/s4.png" alt="s4">
+                    <p>Butter</p>
+                    <p>21 May 2021</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/s5.png" alt="s5">
+                    <p>10,000 Hour</p>
+                    <p>04 Oct 2019</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/s6.jpg" alt="s6">
+                    <p>Always Do</p>
+                    <p>6 Nov 2020</p>
+                </div>
+            </div>
+            </div>
+            <!-----------Your Also Fan Of Kpop -------->
+            <div class="famous-song korean">
+                <h1 class="heading">
+                    Famous Kpop Song
+                </h1>
+                <div class="famous-song-content">
+                <div>
+                    <img src="media/images/song-image/ks1.jpg" alt="s1">
+                    <p>Lovesick Girls</p>
+                    <p>02 Oct 2020</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/ks2.jpg" alt="s2">
+                    <p>Bang Bang</p>
+                    <p>01 June 2015</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/ks3.jpg" alt="s3">
+                    <p>Akward Silence</p>
+                    <p>27 Aug 2018</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/ks4.jpg" alt="s4">
+                    <p>ApanMan</p>
+                    <p>18 May 2018</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/ks5.jpg" alt="s5">
+                    <p>How You Like<br> That</p>
+                    <p>26 June 2020</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/ks6.jpg" alt="s6">
+                    <p>Love Shot</p>
+                    <p>13 Dec 2018</p>
+                </div>
+            </div>
+            </div>
+            <!-----------Intrest Based PlayList---------->
+            <div class="famous-song intrest-based">
+                <h1 class="heading">
+                    Made For You
+                </h1>
+                <div class="famous-song-content">
+                <div>
+                    <img src="media/images/song-image/ks1.jpg" alt="s1">
+                    <p>Lovesick Girls</p>
+                    <p>02 Oct 2020</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/s10.jpg" alt="s2">
+                    <p>Havana</p>
+                    <p>01 June 2015</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/s6.jpg" alt="s3">
+                    <p>Alaways Do</p>
+                    <p>27 Aug 2018</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/s4.png" alt="s4">
+                    <p>Butter</p>
+                    <p>18 May 2018</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/ks5.jpg" alt="s5">
+                    <p>How You Like<br> That</p>
+                    <p>26 June 2020</p>
+                </div>
+                <div>
+                    <img src="media/images/song-image/ks6.jpg" alt="s6">
+                    <p>Love Shot</p>
+                    <p>13 Dec 2018</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--------------------------------------->
+            <label for="queue"><i class="fas fa-headphones-alt"></i><a href="playlist.html"> Playlist</a></label>
+            <input type="checkbox" id="show-queue">
+        <!---------------------------------------->
+
+        <!-----------Section 2---------------->
+
+        <section class="section section2">
+            <div class="section2-heading">
+                <h1>Queue</h1>
+                <h5>
+                    <a href="#queue-option">Queue&nbsp;<h6><i class="fas fa-chevron-down"></i></h6></a>
+                </h5>
+            </div>
+            <div class="option-for-queue" id="queue-option">
+                <p><a href="playlist.html" style="font-weight:bolder;">Favourite songs</a></p>
+                <hr>
+                <p><a href="playlist.html" style="font-weight:bolder;">Playlists</a></p>
+                <hr>
+                <p><a href="#" style="color:red; font-weight:bolder;">Close</a></p>
+            </div>
+            <div class="queue-content">
+                <div class="item">
+                    <div class="left-item">
+                        <div style="margin-right:4px;">01</div>
+                        <div class="cover">
+                            <img src="media/images/song-image/s2.jpg" alt="1">
+                        </div>
+                        <div class="album-desc"><div>Stay</div><p>The Kid LAROI , Justin Bieber</p></div>
+                    </div>
+                    <div class="right-item">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left-item">
+                        <div style="margin-right:4px;">02</div>
+                        <div class="cover">
+                            <img src="media/images/song-image/s4.png" alt="2">
+                        </div>
+                        <div class="album-desc"><div>Butter</div><p>BTS</p></div>
+                    </div>
+                    <div class="right-item">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left-item">
+                        <div style="margin-right:4px;">03</div>
+                        <div class="cover">
+                            <img src="media/images/song-image/ks5.jpg" alt="3">
+                        </div>
+                        <div class="album-desc"><div>How You Like That</div><p>Blackpink</p></div>
+                    </div>
+                    <div class="right-item">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left-item">
+                        <div style="margin-right:4px;">04</div>
+                        <div class="cover">
+                            <img src="media/images/song-image/s9.jpg" alt="4">
+                        </div>
+                        <div class="album-desc"><div>Alone pt-II</div><p>Alan Walker</p></div>
+                    </div>
+                    <div class="right-item">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left-item">
+                        <div style="margin-right:4px;">05</div>
+                        <div class="cover">
+                            <img src="media/images/song-image/s7.jpg" alt="5">
+                        </div>
+                        <div class="album-desc"><div>Tossile Slide</div><p>Drake</p></div>
+                    </div>
+                    <div class="right-item">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left-item">
+                        <div style="margin-right:4px;">06</div>
+                        <div class="cover">
+                            <img src="media/images/song-image/s3.png" alt="6">
+                        </div>
+                        <div class="album-desc"><div>Permission To Dance</div><p>Bts</p></div>
+                    </div>
+                    <div class="right-item">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left-item">
+                        <div style="margin-right:4px;">07</div>
+                        <div class="cover">
+                            <img src="media/images/song-image/s6.jpg" alt="7">
+                        </div>
+                        <div class="album-desc"><div>Always Do</div><p>The Kid LAROI</p></div>
+                    </div>
+                    <div class="right-item">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left-item">
+                        <div style="margin-right:4px;">08</div>
+                        <div class="cover">
+                            <img src="media/images/song-image/s8.jpg" alt="8">
+                        </div>
+                        <div class="album-desc"><div>Stay</div><p>Bts</p></div>
+                    </div>
+                    <div class="right-item">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left-item">
+                        <div style="margin-right:4px;">09</div>
+                        <div class="cover">
+                            <img src="media/images/song-image/ks6.jpg" alt="9">
+                        </div>
+                        <div class="album-desc"><div>Love Shot</div><p>EXO</p></div>
+                    </div>
+                    <div class="right-item">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="left-item">
+                        <div style="margin-right:4px;">10</div>
+                        <div class="cover">
+                            <img src="media/images/song-image/s10.jpg" alt="1">
+                        </div>
+                        <div class="album-desc"><div>Havana</div><p>Camila Cabello</p></div>
+                    </div>
+                    <div class="right-item">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!---------------------------------------->
+     <!-------------Footer And Player Section ------->
+     <!--------------You Wanna Hear Song -----------
+    ------------------Click On Icons ---------------->
+    <footer>
+        <div class="song-cover">
+            <div id="picture">
+                <img src="media/images/song-image/s3.png">
+            </div>
+            <div class="desc">
+                <div>
+                    Permission To Dance
+                </div>
+                <div>
+                    BTS
+                </div>
+            </div>
+            <div class="heart-ban-icon">
+                <span>
+                    <i class="far fa-heart"></i>
+                </span>
+                <span>
+                    <i class="fas fa-ban"></i>
+                </span>
+            </div>
+        </div>
+        <div class="player">
+            <audio id="song1">
+                <source src="media/music/permission_to _dance.mp3" type="audio/mp3">
+            </audio>
+            <audio id="song2">
+                <source src="media/music/10000_hour.mp3" type="audio/mp3">
+            </audio>
+            <audio id="song3">
+                <source src="media/music/always_do.mp3" type="audio/mp3">
+            </audio>
+            <audio id="song4">
+                <source src="media/music/butter.mp3" type="audio/mp3">
+            </audio>
+            <div class="controls">
+                <div><a  onclick="playAudio3()" ondblclick="pauseAudio3()"><i class="fas fa-random"></i></a></div>
+                <div><a  onclick="playAudio2()" ondblclick="pauseAudio2()"><i class="fas fa-step-backward"></i></a></div>
+                <div><a onclick="playAudio1()" ondblclick="pauseAudio1()"><i class="fas fa-pause-circle"></i></a></div>
+                <div><a  onclick="playAudio4()" ondblclick="pauseAudio4()"><i class="fas fa-step-forward"></i></a></div>
+                <div><a  onclick="playAudio1()" ondblclick="pauseAudio1()"><i class="fas fa-redo"></i></a></div>
+            </div>
+            <div id="slider">
+                <div class="time">
+                    1:39
+                </div>
+                <div class="slide-container">
+                    <input type="range" min="0" max="100" value="20" class="slider" id="myRange">
+                </div>
+                <div class="time">
+                    4:44
+                </div>
+            </div>
+        </div>
+        <div class="icons">
+            <div>
+                <i class="fas fa-list-alt"></i>
+            </div>
+            <div>
+                <i class="fas fa-laptop"></i>
+            </div>
+            <div>
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <div class="slidecontainer" style="width:30%;">
+                <input type="range" min="0" max="100" value="50" class="slider" id="myRange" style="margin-top:0px;">
+            </div>
+            <div>
+                <i class="fas fa-expand-alt"></i>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <!--------------JS Script------------->
+    
+    <script>
+        var x = document.getElementById("song1"); 
+        var y=document.getElementById("song2");
+        var z=document.getElementById("song3");
+        var a=document.getElementById("song4");
+        
+        function playAudio1() { 
+          x.play(); 
+        } 
+        
+        function pauseAudio1() { 
+          x.pause(); 
+        } 
+        function playAudio2() { 
+          y.play(); 
+        } 
+        
+        function pauseAudio2() { 
+          y.pause(); 
+        } 
+        function playAudio3() { 
+          z.play(); 
+        } 
+        
+        function pauseAudio3() { 
+          z.pause(); 
+        } 
+        function playAudio4() { 
+          a.play(); 
+        } 
+        
+        function pauseAudio4() { 
+          a.pause(); 
+        } 
+        </script>
+</body>
+</html>
