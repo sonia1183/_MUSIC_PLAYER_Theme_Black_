@@ -615,7 +615,7 @@ audio{
 }
 @media screen and (max-width: 900px) {
     body{
-        font-size:xx-small;
+        font-size:x-small;
     }
 	.short-desc {
 		font-size: 1.6vw;
