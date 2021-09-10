@@ -113,8 +113,14 @@ a{
 	0% {
 		transform: rotate(0deg);
 	}
+	50% {
+		transform: rotateY(360deg);
+	}
+	75% {
+		transform: scale(1.1);
+	}
 	100% {
-		transform: rotate(360deg);
+		transform: scaleX(1);
 	}
 }
 .upgd {
